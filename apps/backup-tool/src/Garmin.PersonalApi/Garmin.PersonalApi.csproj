@@ -1,7 +1,22 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
   <PropertyGroup>
     <TargetFramework>net11.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <IsAotCompatible>true</IsAotCompatible>
+    <PackageId>Sakisk.Garmin.PersonalApi</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>Sakis</Authors>
+    <Description>A small typed client for Garmin Connect Personal API activity retrieval.</Description>
+    <PackageProjectUrl>https://github.com/sakisk/garmin</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/sakisk/garmin</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>garmin;personal-api;activities;nativeaot</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="/" />
+  </ItemGroup>
 </Project>
