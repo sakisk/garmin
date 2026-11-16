@@ -3,4 +3,7 @@
     <Project Path="src/Garmin.Cli/Garmin.Cli.csproj" />
     <Project Path="src/Garmin.PersonalApi/Garmin.PersonalApi.csproj" />
   </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Garmin.Tests/Garmin.Tests.csproj" />
+  </Folder>
 </Solution>
