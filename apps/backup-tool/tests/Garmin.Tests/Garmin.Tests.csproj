@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Garmin.PersonalApi\Garmin.PersonalApi.csproj" />
+    <ProjectReference Include="..\..\src\Garmin.Cli\Garmin.Cli.csproj" />
   </ItemGroup>
 
 </Project>
